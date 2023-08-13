@@ -17,9 +17,8 @@ mayapy -m pip install openai
 
 在脚本内，将您的 API KEY 插入“openai.api key”变量中。
 
-https://i.ytimg.com/vi/ZHKOR4yvfek/maxresdefault.jpg
 示例:
-[![MayaGPT - ChatGPT for Maya]([(https://i.ytimg.com/vi/ZHKOR4yvfek/maxresdefault.jpg)])](https://www.youtube.com/watch?v=ZHKOR4yvfek)
+[![MayaGPT - ChatGPT for Maya]([https://imgur.com/aguHMw7](https://www.youtube.com/watch?v=ZHKOR4yvfek)
 ## 常问问题
 ### 实用吗？
 不，存在一些问题，有时它不会生成可用的脚本。 这仍然是一个概念验证，但它确实很重要。 :)
