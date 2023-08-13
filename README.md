@@ -8,7 +8,12 @@
 ## 如何使用
 您必须生成新的 API 密钥才能使用 ChatGPT api。 创建帐户后，您可以在[此处](https://platform.openai.com/account/api-keys)执行此操作。
 另外，为了使其工作，您必须在 Maya 中安装 openai python 模块：
-- 在“Autodesk/maya/bin”目录中：运行“mayapy -m pip install openai”。
+- 在“Autodesk/maya/bin”目录中：运行“mayapy -m pip install openai”.
+或者试用一下代码安装openai组件
+```bat
+cd C:\Program Files\Autodesk\Maya2023\bin
+mayapy -m pip install openai
+```
 
 在脚本内，将您的 API KEY 插入“openai.api key”变量中。
 
