@@ -18,6 +18,8 @@ mayapy -m pip install openai
 在脚本内，将您的 API KEY 插入“openai.api key”变量中。
 
 示例:
+https://th.bing.com/th/id/OIP.OfG8I3hVvjcqUlLHrenuIQHaFj?pid=ImgDet&rs=1
+[![MayaGPT - ChatGPT for Maya]([https://th.bing.com/th/id/OIP.OfG8I3hVvjcqUlLHrenuIQHaFj?pid=ImgDet&rs=1])(https://www.youtube.com/watch?v=ZHKOR4yvfek)
 https://www.youtube.com/watch?v=ZHKOR4yvfek
 
 ## 常问问题
