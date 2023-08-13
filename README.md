@@ -2,21 +2,22 @@
 
 ![Screenshot of MayaGPT running inside Maya](https://i.ibb.co/ynW6b2j/Capturar.png)
 
-A simple script to integrate the openai API in Maya and use the ChatGPT to generate python scripts for Maya using natural language prompts. Basically it send the prompt to openai through API, asking for a python script for Maya, and once received the script in response, execute it.
+一个简单的脚本，用于在 Maya 中集成 openai API，并使用 ChatGPT 使用自然语言提示为 Maya 生成 python 脚本。 
+基本上它通过 API 向 openai 发送提示，请求 Maya 的 python 脚本，一旦收到响应的脚本，就执行它。
 
-## How to use
-You have to generate a new API Key to use the ChatGPT api. You can do it [here](https://platform.openai.com/account/api-keys) after create an account.
-Also to make it work you have to install openai python module inside Maya:
-- In the "Autodesk/maya/bin" directory: run "mayapy -m pip install openai".
+## 如何使用
+您必须生成新的 API 密钥才能使用 ChatGPT api。 创建帐户后，您可以在[此处](https://platform.openai.com/account/api-keys)执行此操作。
+另外，为了使其工作，您必须在 Maya 中安装 openai python 模块：
+- 在“Autodesk/maya/bin”目录中：运行“mayapy -m pip install openai”。
 
-Inside the script, insert yout API KEY into the "openai.api_key" variable.
+在脚本内，将您的 API KEY 插入“openai.api key”变量中。
 
-Example:
+示例:
 https://www.youtube.com/watch?v=ZHKOR4yvfek
 
-## FAQ
-### Is it pratical?
-No, there are some issues, and sometime it doesn't generate a workable script. It's still a proof-of-concept, but it's something. :)
+＃＃ 常问问题
+### 实用吗？
+不，存在一些问题，有时它不会生成可用的脚本。 这仍然是一个概念验证，但它确实很重要。 :)
 
-### Can I try or use it in my works?
-Definitely yes, you are free to use, improve or use in your professional work environment.
+### 我可以在我的作品中尝试或使用它吗？
+绝对可以，您可以在您的专业工作环境中自由使用、改进或使用。
